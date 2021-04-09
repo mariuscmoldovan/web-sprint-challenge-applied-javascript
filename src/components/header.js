@@ -47,7 +47,7 @@ const headerAppender = (selector) => {
   //
   console.log(selector)
   const headerSelector = document.querySelector(selector)
- headerSelector.appendChild(Header("Lambda News", "09 April 2021", "55 Degre"))
+  headerSelector.appendChild(Header("Lambda News", "09 April 2021", "55 Degre"))
 
 }
 
